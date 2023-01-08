@@ -59,7 +59,18 @@ app.get("/announcement-student",function(req,res)
 {
     res.render("announcement-student");
 });
-
+app.get("/test-play",function(req,res)
+{
+    res.render("test");
+});
+app.get("/institute-list-student",function(req,res)
+{
+    res.render("institute-list-student");
+});
+app.get("/institute-list-teacher",function(req,res)
+{
+    res.render("institute-list-teacher");
+});
 app.post("/login",function(req,res)
 {
     res.redirect("/student-assignment");
