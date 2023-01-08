@@ -8,6 +8,7 @@
 } */
 body{
     overflow: hidden;
+
 }
 
 .student_list{
@@ -15,7 +16,9 @@ body{
     width: 70%;
     height:0vh;
 
+
 }
+
 
 .bars {
     height: 40px;
