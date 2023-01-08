@@ -24,7 +24,7 @@ body {
 
 body{
   height: 9vh;
-  overflow-x: hidden;
+  overflow-x: none;
   
 
 }
