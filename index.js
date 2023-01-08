@@ -51,6 +51,14 @@ app.get("/announcement-teacher",function(req,res)
 {
     res.render("announcement-teacher");
 })
+app.get("/resource-teacher",function(req,res)
+{
+    res.render("resource-teacher");
+})
+app.get("/assignment-teacher",function(req,res)
+{
+    res.render("assignment-teacher");
+})
 app.get("/student-list",function(req,res)
 {
     res.render("student-list");
