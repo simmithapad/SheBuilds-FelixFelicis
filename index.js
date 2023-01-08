@@ -59,6 +59,12 @@ app.get("/assignment-teacher",function(req,res)
 {
     res.render("assignment-teacher");
 })
+
+app.get("/student1-attendance",function(req,res)
+{
+    res.render("student1-attendance");
+})
+
 app.get("/student-list",function(req,res)
 {
     res.render("student-list");
@@ -78,6 +84,7 @@ app.get("/institute-list-student",function(req,res)
 app.get("/institute-list-teacher",function(req,res)
 {
     res.render("institute-list-teacher");
+
 });
 app.post("/login",function(req,res)
 {
