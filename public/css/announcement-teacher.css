@@ -20,7 +20,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
-<<<<<<< HEAD
 }
 /* body{
   
@@ -31,28 +30,6 @@ body {
   height:100vh;
 } */
 
-.addnote{
-    margin-left: auto;
-    margin-right:auto;
-    margin-top:10rem;
-    width: 940px;
-=======
-} */
-
-body{
-  height: 9vh;
-  overflow-x: none;
-  
-
-}
-
-.addnote{
-    margin-top: 36rem;
-    margin-left: -85rem;
-    width: 80%;
- 
->>>>>>> bce70c4330b86b88ac5c660719355e8fdebf4d3b
-}
 #exampleInputEmail1{
     height: 140px;
     width: 600px;
@@ -68,4 +45,11 @@ body{
 }
 .form_nav{  margin-left:-8rem;
 
+}
+
+.addnote{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:10rem;
+    width: 940px;
 }

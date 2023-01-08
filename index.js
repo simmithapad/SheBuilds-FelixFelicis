@@ -75,6 +75,18 @@ app.get("/announcement-student",function(req,res)
 {
     res.render("announcement-student");
 });
+app.get("/announcement-vibha",function(req,res)
+{
+    res.render("announcement-vibha");
+});
+app.get("/assignment-vibha",function(req,res)
+{
+    res.render("assignment-vibha");
+});
+app.get("/resources-vibha",function(req,res)
+{
+    res.render("resources-vibha");
+});
 app.get("/test-play",function(req,res)
 {
     res.render("test");
