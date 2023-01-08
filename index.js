@@ -79,6 +79,10 @@ app.get("/institute-list-teacher",function(req,res)
 {
     res.render("institute-list-teacher");
 });
+app.get("/profile-atudent",function(req,res)
+{
+    res.render("profile-atudent");
+});
 app.post("/login",function(req,res)
 {
     res.redirect("/student-assignment");
