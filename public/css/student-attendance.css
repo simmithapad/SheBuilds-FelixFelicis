@@ -1,47 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); 
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins',sans-serif;
-} */
 body{
-    display: flex;
-    justify-content: justify;
-    align-items: center;
-    background: #f2f2f2;
-    overflow-x: hidden;
-    margin-top: -7rem;
-   
-} 
 
-.bar{
-    width:30rem;
-    height:1rem;
-    border:0.5rem solid blue;
-    border-radius:20px;
-    margin-bottom: 4rem;
-    margin-top: 20rem;
-    margin-left: -20rem;
-    background-color: red;
-    
-  
-}
-.bar p{
-    margin-top:1rem;
-}
-.container_att{
-    width:400px;
-    border:1px solid black;
-    margin-left: -15rem;
-}
-.container_att h6{
-    padding-left: 3rem;
-
-}
-.box{
-    width:100vw;
-    height:40vh;
-   
+	background-color: #eee;
+    height: 9vh;
 }
 
+
+.badge{
+
+	font-size: 25px;
+	font-weight: 200;
+}
+
+.badge i {
+
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.about-rating{
+
+	font-size: 15px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.total-ratings{
+
+	font-size: 12px;
+
+}
+
+.bg-custom{
+
+	background-color: #b7dd29 !important;
+}
+
+.progress{
+
+	margin-top:10px;
+}

@@ -63,6 +63,14 @@ app.get("/student-list",function(req,res)
 {
     res.render("student-list");
 })
+app.get("/teacher-assignment",function(req,res)
+{
+    res.render("teacher-assignment");
+})
+app.get("/resource",function(req,res)
+{
+    res.render("resource");
+})
 app.get("/announcement-student",function(req,res)
 {
     res.render("announcement-student");
