@@ -15,11 +15,12 @@ body {
     height: 100vh;
 }*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); 
-*{
+/*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
+<<<<<<< HEAD
 }
 /* body{
   
@@ -35,6 +36,22 @@ body {
     margin-right:auto;
     margin-top:10rem;
     width: 940px;
+=======
+} */
+
+body{
+  height: 9vh;
+  overflow-x: none;
+  
+
+}
+
+.addnote{
+    margin-top: 36rem;
+    margin-left: -85rem;
+    width: 80%;
+ 
+>>>>>>> bce70c4330b86b88ac5c660719355e8fdebf4d3b
 }
 #exampleInputEmail1{
     height: 140px;
