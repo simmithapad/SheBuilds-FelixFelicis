@@ -51,6 +51,14 @@ app.get("/announcement-teacher",function(req,res)
 {
     res.render("announcement-teacher");
 })
+app.get("/resource-teacher",function(req,res)
+{
+    res.render("resource-teacher");
+})
+app.get("/assignment-teacher",function(req,res)
+{
+    res.render("assignment-teacher");
+})
 app.get("/student-list",function(req,res)
 {
     res.render("student-list");
@@ -77,6 +85,6 @@ app.post("/login",function(req,res)
 })
 
 app.listen(8080,function()
-{
+{ 
     console.log("8080");
 });
