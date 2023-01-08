@@ -20,23 +20,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins',sans-serif;
-<<<<<<< HEAD
-}
-/* body{
-  
-  justify-content: justify;
-  align-items: center;
-  background: #f2f2f2;
-  overflow-x: none;
-  height:100vh;
-} */
-
-.addnote{
-    margin-left: auto;
-    margin-right:auto;
-    margin-top:10rem;
-    width: 940px;
-=======
 } */
 
 body{
@@ -51,7 +34,6 @@ body{
     margin-left: -85rem;
     width: 80%;
  
->>>>>>> bce70c4330b86b88ac5c660719355e8fdebf4d3b
 }
 #exampleInputEmail1{
     height: 140px;
