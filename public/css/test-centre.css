@@ -49,9 +49,9 @@ body{
   }
   .btn{
     padding: 4px 60px;
-    background-color:#B6E2A1;
+    background-color: #008000;
     cursor: pointer;
-    border-color: #B6E2A1; 
+    border-color: #000; 
     height: 50px;
     margin: 10px;
     
